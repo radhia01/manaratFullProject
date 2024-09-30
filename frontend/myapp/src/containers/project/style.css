@@ -1,0 +1,15 @@
+.project_item {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  width: 98%;
+  z-index: 30;
+}
+.projects {
+  height: 100%;
+  margin: 0;
+}
+.list {
+  height: 550px;
+  width: 80%;
+}

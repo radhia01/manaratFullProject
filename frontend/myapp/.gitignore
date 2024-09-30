@@ -1,0 +1,23 @@
+# dépendances
+/node_modules
+
+# build
+/dist
+
+# fichiers temporaires
+/.env
+/.env.local
+/.env.*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# système
+.DS_Store
+Thumbs.db
+
+# configuration de l'IDE
+.idea/
+.vscode/

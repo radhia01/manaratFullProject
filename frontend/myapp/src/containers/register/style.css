@@ -1,0 +1,26 @@
+.register {
+  background-image: url("https://res.cloudinary.com/db8b6npfz/image/upload/v1709029515/Free-Nature-Backgrounds-Seaport-During-Daytime-by-Pexels_zvuseb.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.form_contact {
+  background-color: white;
+  width: 65%;
+  height: 80%;
+}
+.label {
+  color: black;
+  font-size: 11px !important;
+}
+.input {
+  border-bottom: 1px solid black !important;
+}
+.next_btn {
+  height: 30px;
+}
+.lemon-regular {
+  font-family: "Lemon", serif;
+  font-weight: 400;
+  font-style: normal;
+}

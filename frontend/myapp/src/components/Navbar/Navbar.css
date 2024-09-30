@@ -1,0 +1,17 @@
+ul {
+  display: flex;
+}
+.lemon-regular {
+  font-family: "Lemon", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ruwudu-regular {
+  font-family: "Ruwudu", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.border-g {
+  border: 1px solid white;
+}
