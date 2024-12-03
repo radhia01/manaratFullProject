@@ -48,7 +48,7 @@ const handleChangeImage=async()=>{
     try{
       const form=new FormData();
     form.append("file",files)
-    const response=await axios.post(`http://localhost:3001/api/users/upload/image/${user.id}`,form);
+    const response=await axios.post(`https://manaratapi.onrender.com/api/users/upload/image/${user.id}`,form);
        setuserImage(response.data.profile_img)
        setshowConfirmImageUpdate(false)
        dispatch(updateUserProfileImage(response.data.profile_img))

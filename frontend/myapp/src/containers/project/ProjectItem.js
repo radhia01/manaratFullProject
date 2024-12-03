@@ -87,15 +87,19 @@ setshow(false)
     
 
 
-      <div className="mt-3">
+      <div className="mt-3 grid grid-col">
       {project.images.map((element) => {
+       
         return (
-          <img
+          <div className="h-[90%] w-full ">
+             <img
             src={element}
             key={element._id}
-            alt=""
-            class=" text-1xl flex justify-center  h-96 w-full"
+            alt="project_image"
+            className="  w-full h-full object-cover rounded "
           />
+          </div>
+         
         );
       })} 
       </div>
